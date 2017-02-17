@@ -16,6 +16,7 @@ module.exports = stylelint.createPlugin(ruleName, function(optionsPattern, optio
   return function(root, result) {
     if (!validate(result, ruleName, optionsPattern, options)) return;
 
+    options = options || {};
     if (presets.hasOwnProperty(optionsPattern)) {
       var args = presets[optionsPattern];
       optionsPattern = args[0];
