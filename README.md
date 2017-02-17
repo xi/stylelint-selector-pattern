@@ -3,7 +3,7 @@
 A [stylelint](https://github.com/stylelint/stylelint) plugin that allows to
 check selectors with regular expressions.
 
-## installation
+## Installation
 
     npm install stylelint-selector-pattern
 
