@@ -4,7 +4,7 @@
   "description": "A stylelint plugin checks selectors with a regular expression",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint index.js",
+    "lint": "jshint --exclude node_modules ."
   },
   "repository": {
     "type": "git",
