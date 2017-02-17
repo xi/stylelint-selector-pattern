@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-selector-pattern",
+  "version": "0.0.0",
+  "description": "A stylelint plugin checks selectors with a regular expression",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xi/stylelint-selector-pattern.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "nesting",
+    "linter",
+    "bem"
+  ],
+  "author": "Tobias Bengfort <tobias.bengfort@posteo.de>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.2.0",
+    "postcss-resolve-nested-selector": "^0.1.1",
+    "stylelint": "^7.8.0"
+  },
+  "devDependencies": {}
+}
