@@ -23,7 +23,7 @@ var presets = {
     }
   }],
   itcss: ["^\.(o-|c-|u-|t-|s-|is-|has-|_|js-|qa-)[a-z0-9-]+"]
-}
+};
 
 var ruleName = "xi/selector-pattern";
 var messages =  stylelint.utils.ruleMessages(ruleName, {

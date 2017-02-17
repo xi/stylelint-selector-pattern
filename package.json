@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A stylelint plugin checks selectors with a regular expression",
   "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xi/stylelint-selector-pattern.git"
@@ -25,5 +28,7 @@
     "postcss-resolve-nested-selector": "^0.1.1",
     "stylelint": "^7.8.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
 }
