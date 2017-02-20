@@ -1,6 +1,6 @@
 {
   "name": "stylelint-selector-pattern",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A stylelint plugin checks selectors with a regular expression",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/xi/stylelint-selector-pattern.git"
   },
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "stylelint",
     "stylelint-plugin",
